@@ -1,0 +1,130 @@
+.gridPlayerFixedRight {
+  position: fixed;
+  width: 100%;
+  right: 5px;
+  top: 70px;
+}
+.gridPlayerFixedLeft {
+  position: fixed;
+  width: 100%;
+  left: 0;
+  bottom: 0;
+}
+.appBar {
+  padding: 0.5rem;
+}
+
+.title {
+  margin-left: 2rem;
+}
+
+.container {
+  display: flex;
+  align-items: center;
+}
+
+.urlInput {
+  margin: 1rem;
+}
+
+.addSongButton {
+  margin: 1rem;
+}
+
+.dialog {
+  text-align: center;
+}
+
+.thumbnail {
+  width: 90%;
+}
+
+.spinner {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 50;
+}
+
+.songInfoContainer {
+  display: flex;
+  align-items: center;
+}
+
+.songInfo {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+}
+
+.songThumbnail {
+  object-fit: cover;
+  width: 140px;
+  height: 140px;
+}
+
+/*---------------- Song Player */
+
+.songPlayerContainer {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 20px;
+  margin-right: 20px;
+}
+
+.songPlayerDetails {
+  display: flex;
+  flex-direction: column;
+  padding: 0 15px;
+  flex-grow: 1;
+}
+
+.songPlayerContent {
+  flex: 1 0 auto;
+}
+
+.songPlayerThumbnail {
+  width: 150px;
+}
+
+.songPlayerControls {
+  display: flex;
+  align-items: center;
+  padding-left: 5px;
+  padding-right: 5px;
+  justify-content: space-evenly;
+}
+
+.playIcon {
+  height: 38px;
+  width: 38px;
+}
+
+/*---------------- Queued Song List */
+.QueuedSongList {
+  margin: 10px 0;
+}
+
+.QueuedSongList .container {
+  display: grid;
+  grid-auto-flow: column;
+  grid-template-columns: 50px auto 50px;
+  gap: 12px;
+  align-items: center;
+  margin-top: 10px;
+}
+
+.QueuedSongList .avatar {
+  width: 44px;
+  height: 44px;
+}
+
+.QueuedSongList .text {
+  text-overflow: ellipsis;
+  overflow: hidden;
+}
+
+.QueuedSongList .queuedSongInfoContainer {
+  overflow: hidden;
+  white-space: nowrap;
+}
